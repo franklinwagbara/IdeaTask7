@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task7\\IdeaTask7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20F95D82-3A20-49AE-AFA4-81C7D23C5993}|IdeaTask7\\IdeaTask7.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch2\\task7\\ideatask7\\ideatask7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F95D82-3A20-49AE-AFA4-81C7D23C5993}|IdeaTask7\\IdeaTask7.csproj|solutionrelative:ideatask7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7926AC-164B-4416-AC69-A2FC543A5794}|Task7Tests\\Task7Tests.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch2\\task7\\ideatask7\\task7tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7926AC-164B-4416-AC69-A2FC543A5794}|Task7Tests\\Task7Tests.csproj|solutionrelative:task7tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 168,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task7\\IdeaTask7\\Task7Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Task7Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task7\\IdeaTask7\\Task7Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Task7Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:47:54.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task7\\IdeaTask7\\IdeaTask7\\Program.cs",
+              "RelativeDocumentMoniker": "IdeaTask7\\Program.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task7\\IdeaTask7\\IdeaTask7\\Program.cs",
+              "RelativeToolTip": "IdeaTask7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:07:01.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
