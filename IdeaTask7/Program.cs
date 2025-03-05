@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Implementation
+
+using System;
 
 public class Tetromino
 {
@@ -12,12 +14,9 @@ public class Tetromino
             throw new ArgumentNullException(nameof(shape));
         }
 
-        int rows = shape.GetLength(0);
-        int cols = shape.GetLength(1);
-
-        if (rows == 0 || cols == 0)
+        if (shape.GetLength(0) == 0 || shape.GetLength(1) == 0)
         {
-            throw new ArgumentException("Shape cannot have zero rows or columns.", nameof(shape));
+            throw new ArgumentException("Shape cannot be empty.", nameof(shape));
         }
 
         if (color == null)
@@ -27,22 +26,11 @@ public class Tetromino
 
         if (string.IsNullOrWhiteSpace(color))
         {
-            throw new ArgumentException("Color cannot be null, empty, or whitespace.", nameof(color));
+            throw new ArgumentException("Color cannot be null or whitespace.", nameof(color));
         }
 
         Shape = shape;
         Color = color;
-    }
-
-    public enum TetrominoType
-    {
-        I,
-        J,
-        L,
-        O,
-        S,
-        Z,
-        T
     }
 
     public static Tetromino Create(TetrominoType type)
@@ -52,21 +40,32 @@ public class Tetromino
             case TetrominoType.I:
                 return new Tetromino(new bool[,] { { true }, { true }, { true }, { true } }, "cyan");
             case TetrominoType.J:
-                return new Tetromino(new bool[,] { { false, true }, { false, true }, { true, true } }, "blue");
+                return new Tetromino(new bool[,] { { false, true, false }, { false, true, false }, { true, true, false } }, "blue");
             case TetrominoType.L:
-                return new Tetromino(new bool[,] { { true, false }, { true, false }, { true, true } }, "orange");
+                return new Tetromino(new bool[,] { { false, true, false }, { false, true, false }, { false, true, true } }, "orange");
             case TetrominoType.O:
                 return new Tetromino(new bool[,] { { true, true }, { true, true } }, "yellow");
             case TetrominoType.S:
-                return new Tetromino(new bool[,] { { false, true, true }, { true, true, false } }, "green");
+                return new Tetromino(new bool[,] { { false, true, true }, { true, true, false }, { false, false, false } }, "green");
             case TetrominoType.Z:
-                return new Tetromino(new bool[,] { { true, true, false }, { false, true, true } }, "red");
+                return new Tetromino(new bool[,] { { true, true, false }, { false, true, true }, { false, false, false } }, "red");
             case TetrominoType.T:
-                return new Tetromino(new bool[,] { { false, true, false }, { true, true, true } }, "purple");
+                return new Tetromino(new bool[,] { { false, true, false }, { true, true, true }, { false, false, false } }, "purple");
             default:
-                throw new ArgumentException("Invalid Tetromino type.", nameof(type));
+                throw new ArgumentException($"Invalid Tetromino type: {type}", nameof(type));
         }
     }
+}
+
+public enum TetrominoType
+{
+    I,
+    J,
+    L,
+    O,
+    S,
+    Z,
+    T
 }
 
 public static class TetrominoExtensions
@@ -91,7 +90,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var tetromino = Tetromino.Create(Tetromino.TetrominoType.O);
+        var tetromino = Tetromino.Create(TetrominoType.O);
         tetromino.Print();
     }
 }

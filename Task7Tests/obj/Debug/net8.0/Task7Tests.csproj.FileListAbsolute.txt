@@ -103,3 +103,4 @@ C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Tas
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Task7Tests\obj\Debug\net8.0\Task7Tests.pdb
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Task7Tests\obj\Debug\net8.0\Task7Tests.genruntimeconfig.cache
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Task7Tests\obj\Debug\net8.0\ref\Task7Tests.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Task7Tests\obj\Debug\net8.0\Task7Tests.sourcelink.json

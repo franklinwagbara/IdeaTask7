@@ -12,3 +12,4 @@ C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\Ide
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\IdeaTask7\obj\Debug\net8.0\IdeaTask7.pdb
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\IdeaTask7\obj\Debug\net8.0\IdeaTask7.genruntimeconfig.cache
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\IdeaTask7\obj\Debug\net8.0\ref\IdeaTask7.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task7\IdeaTask7\IdeaTask7\obj\Debug\net8.0\IdeaTask7.sourcelink.json
